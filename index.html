@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shorcut icon " href="./multimedia/imagenes/favicon-32x32.png"> 
+    <!-- Bootstrap CSS -->
+    <link  rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/estilo.css">
+
+    <title>Desafio Bootstrap</title>
+  </head>
+  <body>
+    <header class="header">
+        <div id="inicio">
+            <img src="./img/logo.png" alt=""> 
+        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <div class="container-fluid">
+     <!-- <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./paginas/alquilerdevehiculo.html">Alquiler de Vehiculo</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Vuelos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./paginas/VuelosLocales.html">Vuelos Locales</a></li>
+                  <li><a class="dropdown-item" href="./paginas/VuelosInternacionales.html">Vuelos Internacionales</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/Alojamiento.html">Alojamiento</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/atracciones.html">Atracciones/Excursiones</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Nosotros
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./paginas/quienessomos.html">Quienes Somos</a></li>
+                  <li><a class="dropdown-item" href="./paginas/fcontacto.html" > Contactanos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+ <main class="contenido">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/carrusel/slider-img1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Noches que deslumbran</h5>
+             <!-- <p>Some representative placeholder content for the first slide.</p>-->
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./img/carrusel/slider-img2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Infinito que te atrapa</h5>
+              <!-- <p>Some representative placeholder content for the first slide.</p>-->
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="./img/carrusel/slider-img3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Naturaleza de deslumbra</h5>
+            <!-- <p>Some representative placeholder content for the first slide.</p>-->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carrusel/slider-img4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>El deporte .... es alegria</h5>
+             <!-- <p>Some representative placeholder content for the first slide.</p>-->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="viajemain">
+        <h2 >
+            Centro de viajeros de America del Sur</h2>
+        <img src="./img/mercosur.jpg" alt="Mercosur" >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis rutrum gravida. Aliquam vel nunc sit amet nibh aliquam sollicitudin eu vitae elit. Duis varius turpis est, at feugiat metus blandit non. Mauris est nunc, ullamcorper nec egestas at, faucibus ac ex. Cras gravida ut odio eget vulputate. Suspendisse ut nunc cursus, vulputate tortor id, mollis magna. Proin mattis euismod magna. Suspendisse mattis, nunc vitae mattis iaculis, elit massa facilisis magna, ac consequat magna lacus sit amet lectus. Suspendisse a lacinia est, a semper turpis. Phasellus lobortis eget nibh in scelerisque. Morbi feugiat volutpat nisl, vehicula commodo augue volutpat at. Aenean aliquet tristique diam. Aenean maximus, quam non sollicitudin efficitur, est sapien pharetra odio, eget aliquam justo urna eu eros. Donec nec tincidunt tortor.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis rutrum gravida. Aliquam vel nunc sit amet nibh aliquam sollicitudin eu vitae elit. 
+        </p>
+        </div>
+        <section class="ViajerosMain">
+            <div>
+                <h3>Brasil</h3>
+                <img src="./img/brasil.jpg" alt="" >
+            </div>
+            <div>
+                <h3>Chile</h3>
+                <img src="./img/chile.jpg" alt="">
+            </div>
+            <div>
+                <h3>Argentina </h3>
+                <img src="./img/argentina.jpg" alt="">
+            </div>
+        </section>
+        <section class="Recomendados">
+            <div>
+                <img src="./img/delta.jpg" alt="" >
+                <p>Delta.</p>
+            </div>
+            <div>
+                <img src="./img/bus turismo.jpg" alt="">
+                <p>Bus</p>
+            </div>
+            <div>
+                <img src="./img/tango y futbol.jpg" alt="">
+                <p>Tango y futbol</p>
+            </div>
+            <div>
+                <img src="./img/bsas y sus personajes.jpg" alt="">
+                <p>Buenos Aires y sus personaje </p>
+            </div>
+            <div>
+                <img src="./img/uruguay.jpg" alt="">
+                <p>uruguay </p>
+            </div>
+            <div>
+                <img src="./img/colonia 1 dia.jpg" alt="">
+                <p>	Excursion a Colonia (Uruguay) </p>
+            </div>
+            <div>
+                <img src="./img/mza.jpg" alt="">
+                <p>Mendoza</p>
+            </div>
+            <div>
+                <img src="./img/ush.jpg" alt="">
+                <p>Ushuaia </p>
+            </div>
+            <div>
+                <img src="./img/cor.jpg" alt="">
+                <p>	Cordoba </p>
+            </div>
+        </section>
+    </main>		
+    <aside class="sidebar">
+        <h2>AVENTURA</h2>
+        <div>
+            <img src="./img/tirolesa.jpeg" alt="" >
+        </div>
+        <div>
+            <img src="./img/Tandemskydive.png" alt="">
+        </div>
+        <div>
+            <img src="./img/rafting.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./img/parapentea.jpeg" alt="">
+        </div>
+        <div>
+            <img src="./img/trekking.jpg" alt="">
+        </div>
+        <div>
+            <img src="./img/mountainbike.jpg" alt="">
+        </div>
+    </aside>		
+    </main>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <footer class="footer">
+        <div>
+            <img src="./img/facebook.jpg" alt="facebook" width="30px"> 
+            <img src="./img/twiter.jpg" alt="twiter" width="30px">
+            <img src="./img/whatsaap.jpg" alt="whatsaap" width="50px">
+            <img src="./img/instagram.jpg" alt="instagram" width="30px">
+        </div>
+        <a href="#inicio">Ir al Inicio</a>
+    </footer>
+  </body>
+</html>
